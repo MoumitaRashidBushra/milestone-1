@@ -1,0 +1,2 @@
++ HTML5-->The most recent version of HTML, known as HTML5, is used to organize material on websites. It includes fresh features and characteristics that make building dynamic, interactive websites simpler.
++ Semantic HTML-->Semantic HTML uses element names that accurately describe their contents, improving both human and search engine comprehension of the page's structure.There are some semantic tag ---> <header> ,<nav>,<main>,<article>,<section>,<aside>,<footer>,<figure>,<figcaption>,<time>,<mark>,<blockquote>,<address> etc
