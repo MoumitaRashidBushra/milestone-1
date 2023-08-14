@@ -4,3 +4,7 @@
 + Inline & Block Elements:Inline elements are elements that only take up as much width as necessary and don't start on a new line. Block elements, on the other hand, create a new line and take up the full width available. Inline Elements Example--> a tag, span tag, strong tag ,em tag ,abbr tag ,code tag ,time tag ,sup tag ,sub tag ,var tag ,q tag ,cite tag ,mark tag ,br tag ,img tag ,
 Block Elements Example --> div tag,p tag,h1 to h6 tag,ul tag,ol tag,li tag,ul> or ol>blockquote tag,pre tag,hr tag,table tag,tr tag,th tag,td tag,form tag,fieldset tag,legend tag, address tag,article tag, section tag, footer tag, 
  + CSS selectors are used to target specific HTML elements for styling. There are various types of CSS selectors, each with its own way of selecting elements. Such as--> Class Selector,ID Selector,Universal Selector,Attribute Selector etc
+
+ + Specificity:When several competing styles are directed towards the same element, the principle of specificity dictates which style should be used. It is a method for resolving conflicts when the same element is declared in contradictory ways by various styles. The kind of selectors used in the CSS rules is utilized to calculate specificity.
+
+ + Box Model:The box model is a fundamental concept in CSS that describes how elements are rendered on a web page. Every HTML element is treated as a rectangular box, and the box model explains how the content, padding, border, and margin are organized within that box.
