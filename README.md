@@ -3,3 +3,4 @@
 
 + Inline & Block Elements:Inline elements are elements that only take up as much width as necessary and don't start on a new line. Block elements, on the other hand, create a new line and take up the full width available. Inline Elements Example--> a tag, span tag, strong tag ,em tag ,abbr tag ,code tag ,time tag ,sup tag ,sub tag ,var tag ,q tag ,cite tag ,mark tag ,br tag ,img tag ,
 Block Elements Example --> div tag,p tag,h1 to h6 tag,ul tag,ol tag,li tag,ul> or ol>blockquote tag,pre tag,hr tag,table tag,tr tag,th tag,td tag,form tag,fieldset tag,legend tag, address tag,article tag, section tag, footer tag, 
+ + CSS selectors are used to target specific HTML elements for styling. There are various types of CSS selectors, each with its own way of selecting elements. Such as--> Class Selector,ID Selector,Universal Selector,Attribute Selector etc
