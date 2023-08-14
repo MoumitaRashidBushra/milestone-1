@@ -1,2 +1,4 @@
 + HTML5-->The most recent version of HTML, known as HTML5, is used to organize material on websites. It includes fresh features and characteristics that make building dynamic, interactive websites simpler.
 + Semantic HTML-->Semantic HTML uses element names that accurately describe their contents, improving both human and search engine comprehension of the page's structure.There are some semantic tag ---> header tag  ,nav tag ,main tag ,article tag ,section tag ,aside tag ,footer tag ,figure tag ,figcaption tag ,time tag ,mark tag ,blockquote tag ,address tag  etc
+
++ Inline & Block Elements:Inline elements are elements that only take up as much width as necessary and don't start on a new line. Block elements, on the other hand, create a new line and take up the full width available.
