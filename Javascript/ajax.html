@@ -1,0 +1,44 @@
+<!-- 
+    What is Ajax?
+     Ajax is an acronym for "Asynchronous JavaScript and XML." It's a method used in web development to asynchronously send and receive data from a server without forcing the user to completely refresh the web page. By changing specific webpage elements dynamically without requiring a full page reload, this makes for a smoother user experience.
+     -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax Example</title>
+</head>
+
+<body>
+    <button id="fetchButton">Fetch Data</button>
+    <div id="dataContainer"></div>
+
+    <script>
+        const fetchButton = document.getElementById('fetchButton');
+        const dataContainer = document.getElementById('dataContainer');
+
+        fetchButton.addEventListener('click', () => {
+            // Create a new XMLHttpRequest object
+            const xhr = new XMLHttpRequest();
+
+            // Configure the request
+            xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts/3', true);
+
+            // Define the callback function for when the request completes
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    const responseData = JSON.parse(xhr.responseText);
+                    dataContainer.textContent = responseData.title;
+                }
+            };
+
+            // Send the request
+            xhr.send();
+        });
+    </script>
+</body>
+
+</html>
