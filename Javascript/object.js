@@ -22,4 +22,4 @@ const data = [
 ];
 
 const minObject = findMinValueObject(data);
-console.log("Object with minimum value:", minObject); // Output: Object with minimum value: { name: "D", value: 5 }
+console.log("Object with minimum value:", minObject); 
